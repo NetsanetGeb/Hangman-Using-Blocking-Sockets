@@ -11,8 +11,8 @@ import java.util.Date;
 
 public class Dictionary {
     
-   // static File file= new File("C:\\words.txt");
-      static File file = new File("C:\\Users\\Ma Star\\Documents\\NetBeansProjects\\h2\\words.txt");
+        static File file= new File("words.txt");
+      //static File file = new File("C:\\Users\\Ma Star\\Documents\\NetBeansProjects\\h2\\words.txt");
     public Dictionary(){}
     
     public String getDictionaryLine(int totalReadLines) throws FileNotFoundException, IOException{
